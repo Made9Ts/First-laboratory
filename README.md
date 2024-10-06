@@ -14,7 +14,7 @@
 
 <p align="center">
     <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image.png" width="250"> 
-    <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image2.png" width="250">
+    <img src="https://github.com/Made9Ts/First-laboratory/blob/a0bea4ed00c0cb5af31480690ce2be3e68af3fee/image1.png" width="250">
 </p> 
 
 ## <a id="Как-собрать-проект">Как собрать проект?</a>
