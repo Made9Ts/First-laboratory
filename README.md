@@ -7,39 +7,15 @@
 Приложение состоит из двух экранов и передает параметр с одного на другой при нажатии на кнопку. Для запуска проекта следуйте разделу ["Как собрать проект?"](##Как-собрать-проект).
 
 ### Внешний вид
-После запуска открывается экран 1 (`MainActivity`) с кнопкой "Тыкни". По нажатию на кнопку происходит:
-- Переход на экран 2 (`MainActivity2`)
-- Передача параметра из `MainActivity` в переменную на экране `MainActivity2`
+После запуска открывается экран 1 (`MainActivity`) с кнопкой "Переход к Activity 2". По нажатию на кнопку происходит:
+- Переход на экран 2 (`SecondActivity`)
+- Передача параметра из `MainActivity` в переменную на экране `SecondActivity`
 - Отображение текста "Переданный параметр: Поправко".
 
 <p align="center">
     <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image.png" width="250"> 
     <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image2.png" width="250">
 </p> 
-
-### Как передается параметр
-Когда приложение получает сигнал о том, что пользователь нажал на кнопку:
-1. Создается объект `Intent`.
-2. С помощью метода `putExtra` задается пара ключ-значение для передачи.
-3. Запускается `MainActivity2`:
-    ```java
-    Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-    intent.putExtra("surname", "Поправко");
-    startActivity(intent);
-    ```
-
-На стороне `MainActivity2`:
-1. Создается объект `Bundle`, который с помощью методов `getIntent()` и `getExtras()` получает информацию о переданных данных (ключ и значение).
-2. Проверяется, что данные действительно получены и не равны null.
-3. Устанавливается значение для `TextView`:
-    - Хардкод "Переданный параметр: "
-    - Значение по ключу добавляется к хардкоду:
-    ```java
-    TextView text = findViewById(R.id.textView2);
-    Bundle extras = getIntent().getExtras();
-    assert extras != null;
-    text.setText("Переданный параметр: " + extras.getString("surname"));
-    ```
 
 ## <a id="Как-собрать-проект">Как собрать проект?</a>
 _Описан один из возможных способов:_
