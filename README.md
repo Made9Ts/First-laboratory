@@ -13,8 +13,8 @@
 - Отображение текста "Переданный параметр: Поправко".
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/60b5be7f-f869-4bdd-84b6-8a9efbe24112" width="250"> 
-    <img src="https://github.com/user-attachments/assets/c879feed-e7fa-4a12-a63a-e9e3c8856e30" width="250">
+    <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image.png" width="250"> 
+    <img src="https://github.com/Made9Ts/First-laboratory/blob/74c01f9e12d5e30bba4d3e48c2f55bf6ab7b54d5/image2.png" width="250">
 </p> 
 
 ### Как передается параметр
